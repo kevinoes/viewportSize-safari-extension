@@ -48,8 +48,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://kevin.am/viewportsize/updates.plist</string>
+	<string>https://github.com/kevinoes/viewportSize-safari-extension/raw/master/versions.plist</string>
 	<key>Website</key>
-	<string>https://github.com/kevinoes/viewportSize</string>
+	<string>https://github.com/kevinoes/viewportSize-safari-extension</string>
 </dict>
 </plist>
