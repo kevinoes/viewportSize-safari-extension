@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array/>
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>webinspectorOnly</string>
+		<key>MaximumValue</key>
+		<real>1</real>
+		<key>Title</key>
+		<string>Only active when Web Inspector is embedded and showing</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+</array>
 </plist>

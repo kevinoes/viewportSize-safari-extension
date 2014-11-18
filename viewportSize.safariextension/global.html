@@ -1,6 +1,28 @@
 <!doctype html>
 <html>
 <head>
+    <script>
+
+        //listen to incoming messages from viewportSize.js
+        safari.application.addEventListener('message', function(e) {
+
+            //send settings info
+            if(e.name === 'getSettings') {
+                e.target.page.dispatchMessage('settings', {
+                    webinspectorOnly: safari.extension.settings.getItem('webinspectorOnly')
+                });
+
+            //set up listener to catch settings changes
+            } else if(e.name === 'getSettingsChange') {
+                safari.extension.settings.addEventListener('change', function() {
+                    e.target.page.dispatchMessage('settings', {
+                        webinspectorOnly: safari.extension.settings.getItem('webinspectorOnly')
+                    });
+                }, false);
+            }
+        }, false);
+
+    </script>
 </head>
 <body>
 
