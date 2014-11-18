@@ -14,7 +14,7 @@
                 <key>CFBundleShortVersionString</key>
                 <string>1.1</string>
                 <key>URL</key>
-                <string>http://rawgit.com/kevinoe/viewportSize-safari-extension/master/viewportSize.safariextz</string>
+                <string>http://kevin.am/viewportsize/viewportSize.safariextz</string>
             </dict>
         </array>
     </dict>
