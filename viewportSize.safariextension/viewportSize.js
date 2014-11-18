@@ -17,7 +17,7 @@ var viewportWatcher = function() {
         viewportSizeTimeout = setTimeout(function() {
             document.getElementById('viewportSize').remove();
             viewportSizeTimeout = false;
-        }, 1000);
+        }, 2000);
 
     //create new info div
     } else {
@@ -29,7 +29,7 @@ var viewportWatcher = function() {
         infoDiv.style.zIndex = '99999999';
         infoDiv.style.backgroundColor = '#000';
         infoDiv.style.color = '#fff';
-        infoDiv.style.fontFamily = 'Lucida Console';
+        infoDiv.style.fontFamily = 'Menlo';
         infoDiv.style.fontSize = '11px';
         infoDiv.style.lineHeight = '20px';
         infoDiv.style.width = '85px';
